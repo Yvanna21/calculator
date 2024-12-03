@@ -6,7 +6,7 @@ public class Substraction  extends Operation{
     }
 
     @Override
-    public double applyOperation() {
+    protected double applyOperation() {
         return operand1-operand2;    
     }
 }

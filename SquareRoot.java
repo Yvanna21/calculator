@@ -6,7 +6,7 @@ public class SquareRoot extends Operation{
     }
 
     @Override
-    public double applyOperation() {
+    protected double applyOperation() {
         return Math.sqrt(operand1) ;    
     }
 }

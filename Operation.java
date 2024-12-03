@@ -7,6 +7,6 @@ public abstract class Operation {
         this.operand1 = operand1;
         this.operand2 = operand2;
     }
-    public abstract double applyOperation();
+    protected abstract double applyOperation();
 
 }

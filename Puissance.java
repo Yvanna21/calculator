@@ -6,7 +6,7 @@ public class Puissance extends Operation{
     }
 
     @Override
-    public double applyOperation() {
+    protected double applyOperation() {
         return Math.pow(operand1, operand2) ;    
     }
 }
